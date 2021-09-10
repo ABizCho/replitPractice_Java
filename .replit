@@ -1,0 +1,2 @@
+language = "java10"
+run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . string_3.java \n java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* string_3"
