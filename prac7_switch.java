@@ -9,7 +9,7 @@ public class prac7_switch{
     System.out.print("점수를 입력하세요: ");
     score = c.nextInt();
 
-    switch ( score/10){
+    switch ( score/10 ){
       case 10:
       case 9:
        System.out.printf("%c",'A');
