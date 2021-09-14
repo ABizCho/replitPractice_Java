@@ -1,4 +1,4 @@
-public class FourArithmetic_2{
+public class prac2_FourArithmetic{
   public static void main(String[] args){
     int a=10;
     int b=5;

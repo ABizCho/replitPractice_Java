@@ -1,4 +1,4 @@
-public class string_3{
+public class prac3_string{
   public static void main(String[] args){
     char charVAR = 'a';
     String stringVAR1 = "s";

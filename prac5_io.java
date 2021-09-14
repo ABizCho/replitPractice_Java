@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class io_5{
+public class prac5_io{
   public static void main(String[] args){
     
     //출력형식

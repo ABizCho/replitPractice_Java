@@ -1,5 +1,5 @@
 import java.util.*;            
-public class data_4
+public class prac4_data
 {
   public static void main(String[] args)
   {
