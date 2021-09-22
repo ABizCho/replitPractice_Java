@@ -53,6 +53,7 @@ public class prac12_carClass{
         System.out.println(car1.carCreateYear()); //메소드 호출
         System.out.println(car1.carName());
 
+
         car1.showInfo();
 
       }
