@@ -1,37 +1,37 @@
 import java.util.*;
-public class prac12_carClass{
+public class prac12_carClass{ // 클래스 이름
       
       //
-      String name;     //자동차 이름
-      String color;    //자동차 색깔
-      int createYear;  //제조년도       
+      private String name;     //자동차 이름
+      private String color;    //자동차 색깔
+      private int createYear;  //제조년도       
       
       //메소드
         //행위
-      void carUp(){
+      public void carUp(){
         System.out.println("전진합니다.");
       }
-      void carDown(){
+      public void carDown(){
         System.out.println("후진합니다."); 
       }
         //반환
-      int carCreateYear(){
+      public int carCreateYear(){
         return this.createYear;
       }
-      String carName(){
+      public String carName(){
         return this.name;
       }
 
         //get입력
-      void getCarCreateYear(int year){
+      public void getCarCreateYear(int year){
         this.createYear = year;
       }
-      void getCarName(String name){
+      public void getCarName(String name){
         this.name = name;
       }
 
        //show
-       void showInfo(){
+       public void showInfo(){
          System.out.println("======<< Car Info >>========");
          System.out.printf("이름 : %s\n",this.name);
          System.out.printf("제조년월 : %d\n",this.createYear);
