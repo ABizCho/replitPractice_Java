@@ -22,16 +22,12 @@ class Car { // 클래스 선언부
 	public String getModel() { // getModel() 메소드 정의 : public
 		return this.modelYear + "년식 " + this.modelName + " " + this.color;
 	}
-   /*
-  public void boundaryLine(int input){
-    if (input == 0 ){
-    System.out.println("===============");
-    }
-    else{
-    System.out.println("---------------");
-  }
+   
+  public void boundaryLine(int i){
+    if(i==0) System.out.println("========================") ;
+    else System.out.println("------------------------") ; 
  }
- */
+ 
 } // 클래스 선언부 종료
 
 
@@ -49,12 +45,13 @@ public class prac14_class2 {
 		Car mycar = new Car();  //Car() default로 mycar instance 생성
     Car yourcar = new Car("M4",2021,"페리도트그린",200); // Car 생성자를 이용해 yourcar instance 생성
 
-    //boundaryLine(0);
+
+    mycar.boundaryLine(0);
 		System.out.println(mycar.getModel());
-    //boundaryLine(1);
+    mycar.boundaryLine(1);
     
-    //boundaryLine(0);
+    yourcar.boundaryLine(0);
     System.out.println(yourcar.getModel());
-    //boundaryLine(1);
+    yourcar.boundaryLine(1);
 	}
 }
