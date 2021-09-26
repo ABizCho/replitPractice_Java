@@ -1,2 +1,2 @@
 language = "java10"
-run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . prac16_classInheritance.java \n java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* prac16_classInheritance"
+run = "javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d . prac16_2classInheritance.java \n java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* prac16_2classInheritance"
